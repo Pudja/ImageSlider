@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  overflow: visible;
+}
+
+.arrows {
+  height: 10em;
+  width: 10em;
+}
+
+.controles {
+  margin: 5px;
+  height: 10em;
+  width: 10em;
+  background-color: whitesmoke;
+  display: inline-block;
+}
+
+.slider {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-height: 45%;
+  max-width: 80%;
+  overflow: hidden;
+}
+
+.img {
+  display: inline;
+}
+
+div img {
+  margin: 3px;
+  height: 10em;
+  width: 10em;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.text {
+  width: 20%;
+}
+/*# sourceMappingURL=still.css.map */
