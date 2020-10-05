@@ -4,7 +4,7 @@
   margin: 10px;
 }
 .first {
-  display: block;
+  display: flex;
   top: 0;
   left: 0;
   right: 20%;
@@ -13,7 +13,7 @@
   float: right;
 }
 .second {
-  display: block;
+  display: flex;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -29,5 +29,6 @@
     margin: 3px;
     height: 10em;
     width: 10em;
+display: block;
   }
 }
