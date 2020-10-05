@@ -1,0 +1,33 @@
+.row {
+    direction: rtl;
+  height: 50%;
+  margin: 10px;
+}
+.first {
+  display: block;
+  top: 0;
+  left: 0;
+  right: 20%;
+  position: absolute;
+  overflow: visible;
+  float: right;
+}
+.second {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: visible;
+  float: right;
+  right: 40%;
+}
+.img {
+    overflow: hidden;
+  float: right;
+  display: contents;
+  img {
+    margin: 3px;
+    height: 10em;
+    width: 10em;
+  }
+}
