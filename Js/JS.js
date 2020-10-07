@@ -19,8 +19,20 @@ $(document).ready(function () {
   $(".left").mouseleave(function () {
     $(".left").attr("src", "img/arrows/sl.png");
   }); /*Vracanje u sivo */
-});
 
-$(document).ready( function(){
-console.log("ready")
+  /*right button logic */
+  $(".right").click(function () {
+    var lastFR = $(".first .img").first();
+    var lastSR = $(".second .img").first();
+    $(".second").append(lastFR);
+    $(".first").append(lastSR);
+
+  });
+  /*left button logic */
+  $(".left").click(function () {
+    var firstFR = $(".first .img").last();
+    var firstSR = $(".second .img").last();
+    $(".first").prepend(firstSR);
+    $(".second").prepend(firstFR);
+  });
 });
