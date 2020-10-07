@@ -1,4 +1,4 @@
-.row {
+.rowa {
     direction: rtl;
   height: 50%;
   margin: 10px;
@@ -20,15 +20,4 @@
   overflow: visible;
   float: right;
   right: 40%;
-}
-.img {
-    overflow: hidden;
-  float: right;
-  display: contents;
-  img {
-    margin: 3px;
-    height: 10em;
-    width: 10em;
-display: block;
-  }
 }

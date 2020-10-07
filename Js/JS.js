@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $(".img").each(function (i) {
-    $(this).append("<img src='img/slider-image-" + ++i + ".jpg'/>");
+    $(this).append("<img class='img-fluid' src='img/slider-image-" + ++i + ".jpg'/>");
   });
   /*Desni Gumb*/
   $(".right").hover(function () {
@@ -20,15 +20,21 @@ $(document).ready(function () {
     $(".left").attr("src", "img/arrows/sl.png");
   }); /*Vracanje u sivo */
 
-  /*right button logic */
+  /*right button logic 
+  names of the targeted classes will need changing
+  after the import of bootstrap
+  */
   $(".right").click(function () {
-    var lastFR = $(".first .img").first();
+    var lastFR = $(".first .img").first(); 
     var lastSR = $(".second .img").first();
     $(".second").append(lastFR);
     $(".first").append(lastSR);
 
   });
-  /*left button logic */
+  /*left button logic 
+    names of the targeted classes will need changing
+  after the import of bootstrap
+  */
   $(".left").click(function () {
     var firstFR = $(".first .img").last();
     var firstSR = $(".second .img").last();
