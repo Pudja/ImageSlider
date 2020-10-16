@@ -1,36 +1,7 @@
 .row {
-
-position: relative;
-right: 20%;
-}
-.my-img-row1 {
-  display: flex;
-}
-.my-img-row2 {
-  display: flex;
-}
-/*
-.row {
-
-
-  margin: 10px;
-  .my-img-row1 {
-    display: flex;
-    top: 0;
-    left: 0;
-    right: 20%;
-    
-    overflow: visible;
-    float: right;
-  }
-  .my-img-row2 {
-    display: flex;
-    left: 0;
-    bottom: 0;
-    overflow: visible;
-    float: right;
-
-  }
+  display: inline-flex;
+  position: relative;
+  right: 20%;
+  height: 45%;
 }
 
-*/
