@@ -1,25 +1,11 @@
-/*
+/* DONE */
 .img {
-    overflow: hidden;
-  float: right;
-  display: contents;
-  width: auto;
-  height: auto;
+  height: 100%;
+  margin: 5px;
   img {
-
-    margin: 3px;
     height: 100%;
     width: 100%;
-display: block;
+    display: block;
+    object-fit: contain;
   }
 }
-
-
-    min-height: 100%; 
-    width: auto;
-        -webkit-transform: scale(0.7);  Saf3.1+, Chrome 
-        -moz-transform: scale(0.7);  FF3.5+ 
-        -ms-transform: scale(0.7);  IE9 
-         -o-transform: scale(0.7);  Opera 10.5+ 
-            transform: scale(0.7);
-*/

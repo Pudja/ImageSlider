@@ -1,23 +1,36 @@
-.rowa {
-    direction: rtl;
-  height: 50%;
+.row {
+
+position: relative;
+right: 20%;
+}
+.my-img-row1 {
+  display: flex;
+}
+.my-img-row2 {
+  display: flex;
+}
+/*
+.row {
+
+
   margin: 10px;
+  .my-img-row1 {
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 20%;
+    
+    overflow: visible;
+    float: right;
+  }
+  .my-img-row2 {
+    display: flex;
+    left: 0;
+    bottom: 0;
+    overflow: visible;
+    float: right;
+
+  }
 }
-.first {
-  display: flex;
-  top: 0;
-  left: 0;
-  right: 20%;
-  position: absolute;
-  overflow: visible;
-  float: right;
-}
-.second {
-  display: flex;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  overflow: visible;
-  float: right;
-  right: 40%;
-}
+
+*/

@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $(".img").each(function (i) {
-    $(this).append("<img class='img-fluid' src='img/slider-image-" + ++i + ".jpg'/>");
+    $(this).append("<img class='image' src='img/slider-image-" + ++i + ".jpg'/>");
   });
   /*Desni Gumb*/
   $(".right").hover(function () {
@@ -25,10 +25,10 @@ $(document).ready(function () {
   after the import of bootstrap
   */
   $(".right").click(function () {
-    var lastFR = $(".first .img").first(); 
-    var lastSR = $(".second .img").first();
-    $(".second").append(lastFR);
-    $(".first").append(lastSR);
+    var lastFR = $(".my-img-row1 .img").first(); 
+    var lastSR = $(".my-img-row2 .img").first();
+    $(".my-img-row2").append(lastFR);
+    $(".my-img-row1").append(lastSR);
 
   });
   /*left button logic 
@@ -36,9 +36,9 @@ $(document).ready(function () {
   after the import of bootstrap
   */
   $(".left").click(function () {
-    var firstFR = $(".first .img").last();
-    var firstSR = $(".second .img").last();
-    $(".first").prepend(firstSR);
-    $(".second").prepend(firstFR);
+    var firstFR = $(".my-img-row1 .img").last();
+    var firstSR = $(".my-img-row2 .img").last();
+    $(".my-img-row1").prepend(firstSR);
+    $(".my-img-row2").prepend(firstFR);
   });
 });
