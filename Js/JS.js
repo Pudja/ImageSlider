@@ -55,3 +55,4 @@ $(document).ready(function () {
       //() => $(".my-img-row2").animate({ right: resetSR },200));
   });
 });
+
