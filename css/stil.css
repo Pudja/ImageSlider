@@ -15,12 +15,15 @@
 }
 
 .row {
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   position: relative;
   right: 20%;
   height: 45%;
+  overflow: visible;
 }
 
 .my-btn-area {
