@@ -4,23 +4,23 @@ $(document).ready(function () {
       "<img class='image' src='img/slider-image-" + ++i + ".jpg'/>"
     );
   });
-  /*Desni Gumb*/
+  /*Right Button*/
   $(".right").hover(function () {
     $(".right").attr("src", "img/arrows/pd.png");
-  }); /* Promjena u plavo */
+  }); /* To Blue */
 
   $(".right").mouseleave(function () {
     $(".right").attr("src", "img/arrows/sd.png");
-  }); /*Vracanje u sivo */
+  }); /* Revert to gray */
 
-  /*Lijevi Gumb*/
+  /*Left Button*/
   $(".left").hover(function () {
     $(".left").attr("src", "img/arrows/pl.png");
-  }); /* Promjena u plavo */
+  }); /* To Blue */
 
   $(".left").mouseleave(function () {
     $(".left").attr("src", "img/arrows/sl.png");
-  }); /*Vracanje u sivo */
+  }); /* Revert to gray */
 
   /*right button logic */
   $(".right").click(function () {
@@ -57,10 +57,3 @@ $(document).ready(function () {
     $(".my-img-row2").animate({"right": "-="+firstSRW},-2);
   });
 });
-/*
-    var firstFRW = firstFR.outerWidth();
-    var firstSRW = firstSR.outerWidth();
-    var txtW = $(".my-txt-area").outerWidth()
-    var lastFR = row1.first();
-    var lastSR = row2.first();
-*/
