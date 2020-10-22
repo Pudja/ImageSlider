@@ -11,14 +11,24 @@
   height: 25%;
 }
 .btn{
-//  position: absolute;
+  position: relative;
   height: 100%;
   align-content: center;
-  width: 50%;
-  display: inline;
-  border: red 1px double;
+  width: 45%;
+  display: inline-block;
+  
 }
-
+.left{
+  order:1;
+  top: 45% ;
+  float: left;
+  bottom: 40%;
+}
+.right{
+  order:2;
+  top: 45%;
+  bottom: 40%;
+}
 .my-txt-area {
   position: absolute;
   order: 1;
