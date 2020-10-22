@@ -1,15 +1,24 @@
 .my-btn-area {
+  background-color: lawngreen;
   position: absolute;
   order:2;
-  background-color: lawngreen;
-  max-width: 20%;
-  min-width: fit-content;
+  align-content: center;
   display: inline-block;
-  bottom: 0;
-  right: 20%;
-  margin-bottom: 5px;
-
+  bottom: 15%;
+  right: 21%;
+  max-width: 20%;
+  width: 10%;
+  height: 25%;
 }
+.btn{
+//  position: absolute;
+  height: 100%;
+  align-content: center;
+  width: 50%;
+  display: inline;
+  border: red 1px double;
+}
+
 .my-txt-area {
   position: absolute;
   order: 1;
